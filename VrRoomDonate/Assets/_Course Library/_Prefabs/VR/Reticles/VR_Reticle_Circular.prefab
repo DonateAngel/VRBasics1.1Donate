@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 8316821507885964222}
   - component: {fileID: 4955246626782319643}
   - component: {fileID: 7142820903540285649}
-  - component: {fileID: -6286519034566558776}
-  - component: {fileID: 9059999382678541326}
+  - component: {fileID: 1816494616763056141}
   m_Layer: 0
   m_Name: VR_Reticle_Circular
   m_TagString: Untagged
@@ -85,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-6286519034566558776
+--- !u!114 &1816494616763056141
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,17 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2587394aef536bf4bbaa1c27baa04eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleCircular: {fileID: 8656087483511947524}
---- !u!114 &9059999382678541326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8656087483511947524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2587394aef536bf4bbaa1c27baa04eee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reticleCircular: {fileID: 8656087483511947524}
+  spinSpeed: 5
+  scaleSpeed: 0.1
+  maxScale: 1.5
+  minScale: 1
